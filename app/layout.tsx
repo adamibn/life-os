@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   title: "Operator",
   description: "Personal execution system.",
   manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Operator",
+  },
+
+  icons: {
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

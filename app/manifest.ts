@@ -7,6 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Personal execution system.",
     start_url: "/",
     display: "standalone",
+    orientation: "portrait",
     background_color: "#0b0b0f",
     theme_color: "#0b0b0f",
     icons: [
